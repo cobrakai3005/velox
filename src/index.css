@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    cursor: none !important;
-  }
+
 
   html {
     scroll-behavior: smooth;

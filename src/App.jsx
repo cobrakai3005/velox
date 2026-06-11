@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import CustomCursor from "./components/CustomCursor";
+// import CustomCursor from "./components/CustomCursor";
 import CartDrawer from "./components/CartDrawer";
 import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
@@ -43,7 +43,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       <Header />
       <CartDrawer />
       <AnimatedRoutes />
